@@ -1,0 +1,14 @@
+name = "commandcode"
+main = ".open-next/worker.js"
+compatibility_date = "2025-06-01"
+compatibility_flags = ["nodejs_compat"]
+pages_build_output_dir = ".open-next/assets"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "commandcode-db"
+database_id = "PLACEHOLDER"
+
+[[r2_buckets]]
+binding = "R2_BUCKET"
+bucket_name = "commandcode-bucket"
